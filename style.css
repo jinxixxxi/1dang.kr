@@ -1,0 +1,47 @@
+.body {
+    margin: 0;
+    align-items: center;
+    display: table-cell;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.main {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0px 0px;
+}
+
+.main-logo {
+    font-size: 14px;
+    color: black;
+}
+
+.main-menu {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    background-color: white;
+    padding: 0px 0px;
+}
+
+.main-menu li {
+    padding: 8px 10px;
+
+}
+
+.main-link {
+    font-family: 굴림;
+    font-size: 12px;
+    color: black;
+}
+
+.main-foot {
+    font-family: Cambria;
+    font-size: 10px;
+    color: #818181;
+}
