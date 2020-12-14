@@ -48,3 +48,81 @@ a {
     color: #818181;
     text-align: center;
 }
+
+table {
+    border-collapse: collapse;
+    color: inherit;
+}
+
+caption {
+    display: none;
+}
+
+.tabale a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.board-list-wrap {
+    padding: 0px;
+}
+
+.board-menu {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.board-list {
+    width: 100%;
+    border-top: 2px solid #F09000;
+    font-size: 14px;
+    color: #585858
+}
+
+.board-list tr {
+    border-bottom: 1px solid #BBBBBB;
+}
+
+.board-list th,
+.board-list td {
+    padding: 7px;
+    text-align: center;
+}
+
+.board-list tbody tr td:nth-child(2) {
+    text-align: left;
+}
+
+.board-list .tit {
+    background-color: black;
+    text-align: left;
+}
+
+.board-list-wrap .paging {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+
+.board-list-wrap .paging a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 3px 3px;
+    border: 1px solid #555555;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.board-list-wrap .paging a:first-child {
+    margin-left: 0;
+}
+
+.board-list-wrap .paging a.num {
+    background-color: #F09000;
+    font-weight: 600;
+}
+
+.board-list-wrap .paging a.num.on {
+    background-color: white;
