@@ -1,18 +1,20 @@
 .body {
     margin: 0;
-    align-items: center;
     font-family: gulim;
-    text-align: center;
 }
 
 a {
-    font-size: 14px;
+    font-size: 12px;
     color: #333333;
     text-decoration: none;
 }
 
+.top {
+    align-items: center;
+    margin-bottom: 5px;
+}
+
 .main-logo {
-    background-color: white;
     text-align: center;
     font-size: 12px;
     color: black;
@@ -20,33 +22,31 @@ a {
 
 .main-menu {
     background-color: white;
-    margin: 0;
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    font-size: 0%;
+    font-size: 0px;
+}
+
+.main-menu a {
+    font-size: 14px;
 }
 
 .main-menu li {
-    padding: 7px 10px;
+    padding: 10px 10px;
 }
 
 
 .main-link {
-    text-align: center; 
+    text-align: center;
     font-size: 12px;
     color: black;
 }
 
 .main-bottom {
+    text-align: center;
     font-family: Cambria;
     font-size: 10px;
-    color: #818181;
-    text-align: center;
+    color: gray;
 }
 
 table {
@@ -68,35 +68,32 @@ caption {
 }
 
 .board-menu {
-    width: 100%;
-    background-color: white;
-    text-align: center;
-    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 8px 8px;
+    border: 2px solid #888888;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: #DDDDDD;
 }
 
 .board-list {
     width: 100%;
-    border-top: 2px solid #F09000;
-    font-size: 14px;
-    color: #585858
+    border-top: 2px solid #C8C8C8;
+    font-size: 12px;
+    color:black
 }
 
 .board-list tr {
-    border-bottom: 1px solid #BBBBBB;
+    border-bottom: 1px solid #DDDDDD;
 }
 
 .board-list th,
 .board-list td {
-    padding: 7px;
     text-align: center;
+    padding: 5px;
 }
 
 .board-list tbody tr td:nth-child(2) {
-    text-align: left;
-}
-
-.board-list .tit {
-    background-color: black;
     text-align: left;
 }
 
@@ -110,7 +107,7 @@ caption {
     display: inline-block;
     margin-left: 10px;
     padding: 3px 3px;
-    border: 1px solid #555555;
+    border: 1px solid #888888;
     border-radius: 10px;
     font-size: 12px;
 }
@@ -120,9 +117,10 @@ caption {
 }
 
 .board-list-wrap .paging a.num {
-    background-color: #F09000;
+    background-color: #C8C8C8;
     font-weight: 600;
 }
 
 .board-list-wrap .paging a.num.on {
     background-color: white;
+}
