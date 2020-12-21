@@ -1,17 +1,14 @@
-.body {
-    margin: 0;
+body {
+    max-width: 768px;
+    margin: auto;
+    align-items: center;
     font-family: gulim;
 }
 
 a {
-    font-size: 12px;
+    font-size: 13px;
     color: #333333;
     text-decoration: none;
-}
-
-.top {
-    align-items: center;
-    margin-bottom: 5px;
 }
 
 .main-logo {
@@ -22,17 +19,23 @@ a {
 
 .main-menu {
     background-color: white;
+    padding-left: 0px;
     display: flex;
+    list-style: none;
     justify-content: center;
-    font-size: 0px;
 }
 
 .main-menu a {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .main-menu li {
-    padding: 10px 10px;
+    padding: 8px 15px;
+}
+
+.main-menu li:hover {
+background-color: #F1F1F1;
+border-radius: 4px; 
 }
 
 
@@ -47,80 +50,4 @@ a {
     font-family: Cambria;
     font-size: 10px;
     color: gray;
-}
-
-table {
-    border-collapse: collapse;
-    color: inherit;
-}
-
-caption {
-    display: none;
-}
-
-.tabale a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.board-list-wrap {
-    padding: 0px;
-}
-
-.board-menu {
-    margin-bottom: 10px;
-    padding: 8px 8px;
-    border: 2px solid #888888;
-    border-radius: 3px;
-    font-size: 12px;
-    background-color: #DDDDDD;
-}
-
-.board-list {
-    width: 100%;
-    border-top: 2px solid #C8C8C8;
-    font-size: 12px;
-    color:black
-}
-
-.board-list tr {
-    border-bottom: 1px solid #DDDDDD;
-}
-
-.board-list th,
-.board-list td {
-    text-align: center;
-    padding: 5px;
-}
-
-.board-list tbody tr td:nth-child(2) {
-    text-align: left;
-}
-
-.board-list-wrap .paging {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 0;
-}
-
-.board-list-wrap .paging a {
-    display: inline-block;
-    margin-left: 10px;
-    padding: 3px 3px;
-    border: 1px solid #888888;
-    border-radius: 10px;
-    font-size: 12px;
-}
-
-.board-list-wrap .paging a:first-child {
-    margin-left: 0;
-}
-
-.board-list-wrap .paging a.num {
-    background-color: #C8C8C8;
-    font-weight: 600;
-}
-
-.board-list-wrap .paging a.num.on {
-    background-color: white;
 }
