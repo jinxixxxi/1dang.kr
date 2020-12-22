@@ -1,24 +1,26 @@
-  
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    max-width: 768px;
-    margin: auto;
-    align-items: center;
-    font-family: gulim;
+    max-width: 100%;
+    font-family: Gulim;
+    font-size: 13px;
 }
 
 a {
-    font-size: 13px;
-    color: #333333;
+    color: black;
     text-decoration: none;
 }
 
-.main-logo {
+.main-top {
     text-align: center;
     font-size: 12px;
     color: black;
 }
 
-.main-menu {
+.channel {
     background-color: white;
     padding-left: 0px;
     display: flex;
@@ -26,15 +28,16 @@ a {
     justify-content: center;
 }
 
-.main-menu a {
+.channel a {
     font-size: 16px;
+    font-weight: bold;
 }
 
-.main-menu li {
+.channel > li {
     padding: 8px 15px;
 }
 
-.main-menu li:hover {
+.channel > li:hover {
 background-color: #F1F1F1;
 border-radius: 4px; 
 }
@@ -51,4 +54,81 @@ border-radius: 4px;
     font-family: Cambria;
     font-size: 10px;
     color: gray;
+}
+
+.navbar a {
+    padding: 5px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    color: inherit;
+}
+
+.tabale a {
+    text-decoration: none;
+    color: inherit;
+}
+
+caption {
+    display: none;
+}
+
+.board-list-wrap {
+    padding: 0px;
+}
+
+.board-list {
+    width: 100%;
+    border-top: 2px solid #C8C8C8;
+    font-size: 13px;
+    color:black
+}
+
+.board-menu a:hover {
+    background-color: #CCCCCC;
+    border-radius: 1px; 
+}
+
+.board-list tr {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.board-list th,
+.board-list td {
+    text-align: center;
+    padding: 5px;
+}
+
+.board-list tbody tr td:nth-child(2) {
+    text-align: left;
+}
+
+.board-list-wrap .paging {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.board-list-wrap .paging a {
+    display: inline-block;
+    line-height: center;
+    margin-left: 5px;
+    padding: 2px 2px;
+    border: 1px solid #888888;
+    border-radius: 3px;
+}
+
+.board-list-wrap .paging a:first-child {
+    margin-left: 0;
+}
+
+.board-list-wrap .paging a.num {
+    background-color: #C8C8C8;
+    font-weight: 600;
+}
+
+.board-list-wrap .paging a.num.on {
+    background-color: white;
 }
