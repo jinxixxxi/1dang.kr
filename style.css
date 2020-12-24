@@ -6,7 +6,7 @@
 body {
     max-width: 100%;
     font-family: Gulim;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 a {
@@ -14,59 +14,70 @@ a {
     text-decoration: none;
 }
 
-.main-top {
+.top {
     text-align: center;
-    font-size: 12px;
     color: black;
 }
 
-.channel {
+.index-channel {
     background-color: white;
     padding-left: 0px;
     display: flex;
-    list-style: none;
     justify-content: center;
+    list-style: none;
 }
-
-.channel a {
+.index-channel a {
     font-size: 16px;
     font-weight: bold;
 }
 
-.channel > li {
+.index-channel > li {
     padding: 8px 15px;
 }
 
-.channel > li:hover {
+.index-channel > li:hover {
 background-color: #F1F1F1;
 border-radius: 4px; 
 }
 
-
-.main-link {
+.index-link {
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     color: black;
 }
 
-.main-bottom {
+.bottom {
     text-align: center;
     font-family: Cambria;
-    font-size: 10px;
     color: gray;
 }
 
-.navbar a {
-    padding: 5px 0px;
-    font-size: 13px;
+.board-channel {
+    background-color:white;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.board-channel a {
+    font-size: 16px;
     font-weight: bold;
+}
+
+.board-channel > li {
+    padding: 9px 9px;
+}
+
+.board-channel > li:hover {
+background-color: #F1F1F1;
+border-radius: 4px; 
 }
 
 table {
     border-collapse: collapse;
     color: inherit;
 }
-
 .tabale a {
     text-decoration: none;
     color: inherit;
@@ -77,19 +88,13 @@ caption {
 }
 
 .board-list-wrap {
-    padding: 0px;
+    margin: 0px 10px;
+    padding: 0px 0px;
 }
-
 .board-list {
     width: 100%;
     border-top: 2px solid #C8C8C8;
-    font-size: 13px;
     color:black
-}
-
-.board-menu a:hover {
-    background-color: #CCCCCC;
-    border-radius: 1px; 
 }
 
 .board-list tr {
@@ -105,7 +110,6 @@ caption {
 .board-list tbody tr td:nth-child(2) {
     text-align: left;
 }
-
 .board-list-wrap .paging {
     margin-top: 10px;
     text-align: center;
@@ -131,4 +135,11 @@ caption {
 
 .board-list-wrap .paging a.num.on {
     background-color: white;
+}
+
+.about {
+    display: flex;
+    margin: 20px 20px;
+    text-align: left;
+    list-style: none;
 }
