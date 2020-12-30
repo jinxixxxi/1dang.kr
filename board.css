@@ -1,33 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    max-width: 768px;
-    width: 100%;
-    padding: 0px 10px;
     text-align: center;
+    font-family: Gulim;
+    font-size: 13px;
 }
 
 a {
-    color: #333333;
+    color: black;
     text-decoration: none;
 }
 
-.board-top {
-    padding: 5px 0px;
+header {
     display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    max-width: 768px;
+    margin: auto;
 }
 
-.board-button {
-    display: inline-block;
-    list-style: none;
-    text-align: left;
-    background: #FFAE18;
-    padding: 10px;
-    color: white;
+header .logo {
+    padding-top: 5px;
+}
+
+header .title {
+    padding-top: 15px;
     font-size: 14px;
-    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header .menu > li {
+    padding: 3px 0px;
+    list-style: none;
+}
+header .menu button {
+    padding: 1px 5px;
+    width: 120x;
+    height: 25px;
+    background-color: #C8C8C8;
+    color:white;
+    border: 1px solid #C8C8C8;
+    color:white;
+    border-radius: 5px;
+    line-height: center;
+}
+
+
+.board-channel {
+    background-color:#EEEEEE;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.board-channel > a {
+    font-size: 13px;
+}
+
+.board-channel > li {
+    padding: 10px 10px;
+}
+
+.board-channel > li:hover {
+    background-color:#FFAE18;
+}
+
+.board-channel > li:hover span {
+    color:white;
+    font-weight: bold;
 }
 
 table {
     border-collapse: collapse;
+    color: inherit;
+}
+.tabale a {
+    text-decoration: none;
     color: inherit;
 }
 
@@ -35,39 +87,14 @@ caption {
     display: none;
 }
 
-.tabale a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .board-list-wrap {
-    padding: 0px;
+    padding: 15px 5px;
+    max-width: 768px;
+    margin: auto;
 }
-
-.board-menu {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;   
-    list-style: none;
-    border: 1px solid #DDDDDD;
-    border-radius: 3px;
-    background-color: #ECECEC;
-}
-
-.board-menu a {
-    padding: 10px 10px;
-    font-size: 13px;
-}
-
-.board-menu a:hover {
-    background-color: #CCCCCC;
-    border-radius: 1px; 
-}
-
 .board-list {
     width: 100%;
-    border-top: 2px solid #C8C8C8;
-    font-size: 13px;
+    border-top: 2px solid #F1F1F1;
     color:black
 }
 
@@ -84,9 +111,8 @@ caption {
 .board-list tbody tr td:nth-child(2) {
     text-align: left;
 }
-
 .board-list-wrap .paging {
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
 }
 
@@ -96,7 +122,7 @@ caption {
     margin-left: 5px;
     padding: 2px 2px;
     border: 1px solid #888888;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .board-list-wrap .paging a:first-child {
@@ -105,9 +131,15 @@ caption {
 
 .board-list-wrap .paging a.num {
     background-color: #C8C8C8;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .board-list-wrap .paging a.num.on {
     background-color: white;
+}
+
+.bottom {
+    font-size: 12px;
+    font-family: Cambria;
+    color: gray;
 }

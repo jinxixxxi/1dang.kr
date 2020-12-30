@@ -4,9 +4,9 @@
 }
 
 body {
-    max-width: 100%;
+    text-align: center;
     font-family: Gulim;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 a {
@@ -19,127 +19,42 @@ a {
     color: black;
 }
 
-.index-channel {
-    background-color: white;
-    padding-left: 0px;
+#index-channel {
     display: flex;
     justify-content: center;
     list-style: none;
 }
-.index-channel a {
+#index-channel a {
     font-size: 16px;
     font-weight: bold;
 }
 
-.index-channel > li {
-    padding: 8px 15px;
+#index-channel li {
+    padding: 10px 15px;
 }
 
-.index-channel > li:hover {
-background-color: #F1F1F1;
-border-radius: 4px; 
+#index-channel > li:hover {
+    background-color: #F1F1F1;
+    border-radius: 5px;
 }
 
 .index-link {
-    text-align: center;
     font-size: 13px;
-    color: black;
+}
+
+#index-ad {
+    border: 2px solid #FFAE18;
+    border-radius: 5px;
+}
+
+#about {
+    padding: 5px;
+    color: gray;
+    font-size: 8px;
 }
 
 .bottom {
-    text-align: center;
+    font-size: 12px;
     font-family: Cambria;
     color: gray;
-}
-
-.board-channel {
-    background-color:white;
-    padding-left: 0px;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-.board-channel a {
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.board-channel > li {
-    padding: 9px 9px;
-}
-
-.board-channel > li:hover {
-background-color: #F1F1F1;
-border-radius: 4px; 
-}
-
-table {
-    border-collapse: collapse;
-    color: inherit;
-}
-.tabale a {
-    text-decoration: none;
-    color: inherit;
-}
-
-caption {
-    display: none;
-}
-
-.board-list-wrap {
-    margin: 0px 10px;
-    padding: 0px 0px;
-}
-.board-list {
-    width: 100%;
-    border-top: 2px solid #C8C8C8;
-    color:black
-}
-
-.board-list tr {
-    border-bottom: 1px solid #DDDDDD;
-}
-
-.board-list th,
-.board-list td {
-    text-align: center;
-    padding: 5px;
-}
-
-.board-list tbody tr td:nth-child(2) {
-    text-align: left;
-}
-.board-list-wrap .paging {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.board-list-wrap .paging a {
-    display: inline-block;
-    line-height: center;
-    margin-left: 5px;
-    padding: 2px 2px;
-    border: 1px solid #888888;
-    border-radius: 3px;
-}
-
-.board-list-wrap .paging a:first-child {
-    margin-left: 0;
-}
-
-.board-list-wrap .paging a.num {
-    background-color: #C8C8C8;
-    font-weight: 600;
-}
-
-.board-list-wrap .paging a.num.on {
-    background-color: white;
-}
-
-.about {
-    display: flex;
-    margin: 20px 20px;
-    text-align: left;
-    list-style: none;
 }
