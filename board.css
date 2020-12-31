@@ -15,40 +15,37 @@ a {
 }
 
 header {
+    background: yellow;
     display: flex;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 10px 10px;
     max-width: 768px;
     margin: auto;
 }
 
 header .logo {
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 header .title {
-    padding-top: 15px;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    text-align: center;
+}
+
+header .menu > ul {
+    list-style: none;
 }
 
 header .menu > li {
-    padding: 3px 0px;
     list-style: none;
-}
-header .menu button {
-    padding: 1px 5px;
-    width: 120x;
-    height: 25px;
-    background-color: #C8C8C8;
-    color:white;
-    border: 1px solid #C8C8C8;
-    color:white;
+    border: 1px solid #303030;
     border-radius: 5px;
-    line-height: center;
+    padding: 2px 5px;
 }
 
+header .menu > li > a {
+    font-size: 12px;
+    font-weight: bold;
+}
 
 .board-channel {
     background-color:#EEEEEE;
@@ -66,11 +63,11 @@ header .menu button {
 }
 
 .board-channel > li:hover {
-    background-color:#FFAE18;
+    background-color:#E7E7E7;
 }
 
 .board-channel > li:hover span {
-    color:white;
+    color:black;
     font-weight: bold;
 }
 
@@ -121,7 +118,7 @@ caption {
     line-height: center;
     margin-left: 5px;
     padding: 2px 2px;
-    border: 1px solid #888888;
+    border: 1px solid #999999;
     border-radius: 5px;
 }
 
@@ -130,7 +127,7 @@ caption {
 }
 
 .board-list-wrap .paging a.num {
-    background-color: #C8C8C8;
+    background-color: #BBBBBB;
     font-weight: bold;
 }
 
