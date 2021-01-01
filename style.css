@@ -15,8 +15,17 @@ a {
 }
 
 .top {
-    text-align: center;
     color: black;
+}
+.top > h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 44px;
+    color: #fcd46f;
+}
+
+.top > h1> em {
+    font-style: normal;
+    color: #999999;
 }
 
 #index-channel {
@@ -29,7 +38,7 @@ a {
     font-weight: bold;
 }
 
-#index-channel li {
+#index-channel > li {
     padding: 10px 15px;
 }
 
