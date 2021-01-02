@@ -15,7 +15,6 @@ a {
 }
 
 header {
-    background: yellow;
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
@@ -23,27 +22,33 @@ header {
     margin: auto;
 }
 
-header .logo {
+.logo {
     padding-top: 0px;
 }
 
-header .title {
-    text-align: center;
+.title {
+    line-height: center;
 }
 
-header .menu > ul {
-    list-style: none;
+.menu > ul {
+    position: relative;
 }
 
-header .menu > li {
+.menu > ul > li {
+    width: 60px;
+    height: 15px;
+    position: relative;
     list-style: none;
-    border: 1px solid #303030;
+    border: 1px solid #999999;
+    background-color: #BBBBBB;
     border-radius: 5px;
     padding: 2px 5px;
 }
+#b {
+    top: 10px;
+}
 
-header .menu > li > a {
-    font-size: 12px;
+.menu li a {
     font-weight: bold;
 }
 
