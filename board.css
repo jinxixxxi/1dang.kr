@@ -27,7 +27,7 @@ header {
 }
 
 .title {
-    line-height: center;
+    font-weight: bold;
 }
 
 .menu > ul {
