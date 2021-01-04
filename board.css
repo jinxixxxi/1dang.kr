@@ -36,25 +36,27 @@ header {
 
 .menu > ul > li {
     width: 55px;
-    height: 15px;
+    height: 20px;
     position: relative;
     list-style: none;
-    border: 1px solid #999999;
-    background-color: #BBBBBB;
+    border: 1px solid white;
+    background-color: #FFAE18;
     border-radius: 5px;
-    padding: 2px 5px;
+    padding: 3px 6px;
+    line-height:20px
 }
 #b {
-    top: 10px;
+    top: 5px;
 }
 
 .menu li a {
     font-size: 12px;
+    color: white;
     font-weight: bold;
 }
 
 .board-channel {
-    background-color:#EEEEEE;
+    background-color:#E7E7E7;
     display: flex;
     justify-content: center;
     list-style: none;
