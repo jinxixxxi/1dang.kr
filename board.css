@@ -27,7 +27,8 @@ header {
 }
 
 .title {
-    font-weight: bold;
+    border: 1px solid #FFAE18;
+    border-radius: 5px;
 }
 
 .menu > ul {
