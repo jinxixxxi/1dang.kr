@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
-    max-width: 768px;
+    max-width: 1024px;
     margin: auto;
 }
 
@@ -95,7 +95,7 @@ caption {
 
 .board-list-wrap {
     padding: 15px 5px;
-    max-width: 768px;
+    max-width: 1024px;
     margin: auto;
 }
 .board-list {
