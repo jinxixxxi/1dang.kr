@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
 }
 
@@ -19,8 +19,8 @@ a {
 }
 .top > h1 {
     font-family: 'Orbitron', sans-serif;
-    font-size: 30px;
-    color: #555555;
+    font-size: 35px;
+    color: gray;
 }
 
 .top > h1> em {
@@ -29,22 +29,29 @@ a {
 }
 
 #index-channel {
+    background-color: white;
+
+}
+
+#index-channel > ul {
+    max-width: 425px;
+    padding: 10px 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
 }
+
+#index-channel > ul > li {
+    background-color: white;
+}
+
 #index-channel a {
+font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
-    font-weight: bold;
 }
 
-#index-channel > li {
-    padding: 10px 15px;
-}
-
-#index-channel > li:hover {
-    background-color: #F1F1F1;
-    border-radius: 5px;
+#index-channel > ul > li:hover {
+    color: black;
 }
 
 .index-link {
