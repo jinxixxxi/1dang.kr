@@ -15,6 +15,7 @@ a {
 }
 
 .top {
+    font-size: 16px;
     color: black;
 }
 .top > h1 {
