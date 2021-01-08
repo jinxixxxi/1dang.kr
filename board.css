@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
-    max-width: 1024px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -31,11 +31,11 @@ header {
     border-radius: 5px;
 }
 
-.menu > ul {
+.menu ul {
     line-height: center;
 }
 
-.menu > ul > li {
+.menu ul li {
     width: 55px;
     height: 20px;
     position: relative;
@@ -63,19 +63,19 @@ header {
     list-style: none;
 }
 
-.board-channel > a {
+.board-channel a {
     font-size: 13px;
 }
 
-.board-channel > li {
+.board-channel li {
     padding: 10px 10px;
 }
 
-.board-channel > li:hover {
+.board-channel li:hover {
     background-color:#E7E7E7;
 }
 
-.board-channel > li:hover span {
+.board-channel li:hover span {
     color:black;
     font-weight: bold;
 }
@@ -95,7 +95,7 @@ caption {
 
 .board-list-wrap {
     padding: 15px 5px;
-    max-width: 1024px;
+    max-width: 700px;
     margin: auto;
 }
 .board-list {

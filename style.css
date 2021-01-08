@@ -20,7 +20,7 @@ a {
 .top > h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 35px;
-    color: gray;
+    color: #666666;
 }
 
 .top > h1> em {
@@ -33,24 +33,24 @@ a {
 
 }
 
-#index-channel > ul {
-    max-width: 425px;
+#index-channel ul {
+    max-width: 375px;
     padding: 10px 5px;
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
 
-#index-channel > ul > li {
+#index-channel ul li {
     background-color: white;
 }
 
 #index-channel a {
-font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
+    font-weight: bold;
 }
 
-#index-channel > ul > li:hover {
+#index-channel ul li:hover {
     color: black;
 }
 
