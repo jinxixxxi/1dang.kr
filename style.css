@@ -51,8 +51,8 @@ a {
     font-weight: bold;
 }
 
-#index-channel ul li:hover {
-    color: black;
+#index-channel ul li:hover span {
+    color: #FFAE18;
 }
 
 .index-link {
