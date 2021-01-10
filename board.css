@@ -58,8 +58,12 @@ header {
 
 .board-channel {
     margin: auto;
-    max-width: 1024px;
     background-color:#E7E7E7;
+}
+
+.board-channel ul {
+    margin: auto;
+    max-width: 1024px;
     display: flex;
     justify-content: space-between;
     list-style: none;
