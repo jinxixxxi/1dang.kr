@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
-    max-width: 1024px;
+    max-width: 768px;
 }
 
 .logo {
@@ -63,7 +63,7 @@ header {
 
 .board-channel ul {
     margin: auto;
-    max-width: 1024px;
+    max-width: 768px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -102,7 +102,7 @@ caption {
 .board-list-wrap {
     margin: auto;
     padding: 15px 5px;
-    max-width: 1024px;
+    max-width: 768px;
 }
 .board-list {
     width: 100%;
