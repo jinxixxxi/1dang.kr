@@ -15,11 +15,11 @@ a {
 }
 
 header {
+    margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
     max-width: 1024px;
-    margin: auto;
 }
 
 .logo {
@@ -57,9 +57,11 @@ header {
 }
 
 .board-channel {
+    margin: auto;
+    max-width: 1024px;
     background-color:#E7E7E7;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
 }
 
@@ -94,9 +96,9 @@ caption {
 }
 
 .board-list-wrap {
+    margin: auto;
     padding: 15px 5px;
     max-width: 1024px;
-    margin: auto;
 }
 .board-list {
     width: 100%;
