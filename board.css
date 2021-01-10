@@ -63,7 +63,7 @@ header {
 
 .board-channel ul {
     margin: auto;
-    max-width: 768px;
+    max-width: 730px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -82,8 +82,7 @@ header {
 }
 
 .board-channel li:hover span {
-    color:black;
-    font-weight: bold;
+    color:#FFAE18;
 }
 
 table {
