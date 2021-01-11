@@ -16,6 +16,7 @@ a {
 
 header {
     margin: auto;
+    border-top: 3px solid #FFAE18;
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
