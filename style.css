@@ -15,6 +15,7 @@ a {
 }
 
 .top {
+    border-top: 3px solid #FFAE18;
     font-size: 16px;
     color: black;
 }
