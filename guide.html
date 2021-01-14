@@ -17,6 +17,7 @@
         }
 
         body {
+            background: rgb(250, 250, 250);
             border-top: 3px solid #FFAE18;
             text-align: center;
             font-family: Gulim;
@@ -36,37 +37,46 @@
         .top b span {
             color: #FFAE18;
         }
-
+        
+        .navbar {
+            padding: 0px 10px;
+            display: flex;
+            max-width: 1024px;
+        }
         #index-channel {
-            max-width: 425px;
-            padding: 7px 10px;
+            display: flex;
+            justify-content: space-between;
+            max-width: 70px;
+            padding: 5px 10px;
+            border: 1px solid #DDDDDD;
+            border-radius: 5px;
+            background: white;
         }
 
         #index-channel ul {
-            display: flex;
-            justify-content: space-between;
+            display:inline-block;
             list-style: none;
         }
 
         #index-channel ul li {
-            background-color: white;
+            background: white;
+            padding: 5px 0px;
+;
         }
 
         #index-channel a {
-            background-color: white;
+            background: white;
         }
 
         #index-channel li:hover span {
             color: #FFAE18;
         }
 
-        h2 {
-            margin: 5px auto;
-            max-width: 768px;
-            border-bottom-width : 1px;
-            border-bottom-style : dashed;
-            border-bottom-color : #FFAE18;
-          }
+        #title {
+            font-size: 12px;
+            font-weight: bold;
+            color: black;
+        }
 
         .bottom {
             font-size: 12px;
@@ -79,43 +89,20 @@
         <div class="top">
             <br>
             <br>
-            在韓國, 需要找臨活儿時. 請登陸 【 <b><span>1D</span>ANG.KR</b> 】
+            在韓國, 需要找臨活儿時. 請登陸 【 <a href="http://www.1dang.kr"><b>WWW.<span>1D</span>ANG.KR</b></a> 】
             <br>
-            <br>
-            <h1>web site's guide</h1>
             <br>
             <br>
         </div>
         <nav class="navbar">
         <div id="index-channel">
             <ul>
-            <li><a href="https://www.yb79.net" target="blank_"><span>YB79.NET</span></a></li>
-            <li><a href="https://www.bomeetv.com" target="blank_"><span>BomeeTV</span></a></li>
-            <li><a href="http://www.luckymv.com" target="blank_"><span>LuckyMovie</span></a></li>
-            <li><a href="https://www.ch-korea25.com" target="blank_"><span>ChannelKOREA</span></a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="https://www.beiyaotv.com" target="blank_"><span>조개타령티비</span></a></li>
-            <li><a href="http://www.goratv00.com" target="blank_"><span>고래티비</span></a></li>
-            <li><a href="http://www.meailtv.com" target="blank_"><span>매일티비</span></a></li>
-            <li><a href="http://zoa1.tv" target="blank_"><span>조아티비</span></a></li>
-            <li><a href="https://tazotv20.com" target="blank_"><span>타조티비</span></a></li>
-            </ul>
-        </div>
-        <h2></h2>
-        <div id="index-channel">
-            <ul>
+            <li id="title">은　　행</li>
             <li><a href="http://www.nonghyup.com" target="blank_"><span>농협은행</span></a></li>
             <li><a href="http://www.ibk.co.kr" target="blank_"><span>기업은행</span></a></li>
             <li><a href="http://www.kbstar.com" target="blank_"><span>국민은행</span></a></li>
             <li><a href="http:/www.shinhan.com" target="blank_"><span>신한은행</span></a></li>
             <li><a href="http://www.wooribank.com" target="blank_"><span>우리은행</span></a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
             <li><a href="http://www.suhyup.co.kr" target="blank_"><span>수협은행</span></a></li>
             <li><a href="http://www.busanbank.co.kr" target="blank_"><span>부산은행</span></a></li>
             <li><a href="http://www.knbank.co.kr" target="blank_"><span>경남은행</span></a></li>
@@ -125,179 +112,126 @@
         </div>
         <div id="index-channel">
             <ul>
-            <li><a href="https://www.boc.cn" target="blank_"><span>中国银行</span></a></li>
-            <li><a href="http://www.icbc.com.cn/icbc" target="blank_"><span>工商银行</span></a></li>
-            <li><a href="http://www.ccb.com/cn/home/indexv3.html" target="blank_"><span>建设银行</span></a></li>
-            <li><a href="http://www.bankcomm.com/BankCommSite/default.shtml" target="blank_"><span>交通银行</span></a></li>
-            <li><a href="http://ebank.cebbank.com" target="blank_"><span>光大银行</span></a></li>
+                <li id="title">銀　　行</li>
+                <li><a href="https://www.boc.cn" target="blank_"><span>中国银行</span></a></li>
+                <li><a href="http://www.icbc.com.cn/icbc" target="blank_"><span>工商银行</span></a></li>
+                <li><a href="http://www.ccb.com/cn/home/indexv3.html" target="blank_"><span>建设银行</span></a></li>
+                <li><a href="http://www.bankcomm.com/BankCommSite/default.shtml" target="blank_"><span>交通银行</span></a></li>
+                <li><a href="http://ebank.cebbank.com" target="blank_"><span>光大银行</span></a></li>
+                <li><a href="http://www.abchina.com/cn" target="blank_"><span>农业银行</span></a></li>
+                <li><a href="http://www.psbc.com/cn/index.html" target="blank_"><span>邮政储蓄</span></a></li>
+                <li><a href="http://www.cmbchina.com" target="blank_"><span>招商银行</span></a></li>
+                <li><a href="https://www.citicbank.com" target="blank_"><span>中信银行</span></a></li>
+                <li><a href="https://www.cib.com.cn/cn/index.html" target="blank_"><span>兴业银行</span></a></li>
             </ul>
         </div>
         <div id="index-channel">
-            <ul>
-            <li><a href="http://www.abchina.com/cn" target="blank_"><span>农业银行</span></a></li>
-            <li><a href="http://www.psbc.com/cn/index.html" target="blank_"><span>邮政储蓄</span></a></li>
-            <li><a href="http://www.cmbchina.com" target="blank_"><span>招商银行</span></a></li>
-            <li><a href="https://www.citicbank.com" target="blank_"><span>中信银行</span></a></li>
-            <li><a href="https://www.cib.com.cn/cn/index.html" target="blank_"><span>兴业银行</span></a></li>
-            </ul>
-        </div>
-        <h2></h2>
-        <div id="index-channel">
-            <ul>
-            <li><a href="http://onair.kbs.co.kr" target="blank_">KBS 1</a></li>
-            <li><a href="http://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=12&ch_type=globalList" target="blank_">KBS 2</a></li>
-            <li><a href="http://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=N91&ch_type=globalList" target="blank_">KBS drama</a></li>
-            <li><a href="http://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=N92&ch_type=globalList" target="blank_">KBS joy</a></li>
-            <li><a href="http://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=81&ch_type=globalList" target="blank_">KBS24뉴스</a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="http://play.sbs.co.kr/onair/pc/index.html?div=pc_onair" target="blank_">SBS</a></li>
-            <li><a href="http://play.sbs.co.kr/onair/pc/index.html?div=pc_onair&Channel=sbsplus" target="blank_">SBS Plus</a></li>
-            <li><a href="http://play.sbs.co.kr/onair/pc/index.html?div=pc_onair&Channel=sbsgolf" target="blank_">SBS Golf</a></li>
-            <li><a href="http://play.sbs.co.kr/onair/pc/index.html?div=pc_onair&Channel=sbsfune" target="blank_">SBS funE</a></li>
-            <li><a href="http://play.sbs.co.kr/onair/pc/index.html?div=pc_onair&Channel=sbscnbc" target="blank_">SBS CNBC</a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="http://onair.imbc.com" target="blank_">MBC</a></li>
-            <li><a href="http://onair.imbc.com/?chid=13" target="blank_">MBC drama</a></li>
-            <li><a href="http://onair.imbc.com/?chid=14" target="blank_">MBC every1</a></li>
-            <li><a href="http://onair.imbc.com/?chid=15" target="blank_">MBC m</a></li>
-            <li><a href="http://onair.imbc.com/?chid=17" target="blank_">MBC net</a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="https://tv.cctv.com/live/m" target="blank_">央视直播</a></li>
-            <li><a href="http://www.iybtv.com" target="blank_">延边卫视</a></li>
-            <li><a href="https://www.brtn.cn/btv/btvsy_index" target="blank_">北京卫视</a></li>
-            <li><a href="http://www.66zhibo.net/2/dongfang.html" target="blank_">东方卫视</a></li>
-            <li><a href="https://www.gdtv.cn/tvChannelDetail/43" target="blank_">广东卫视</a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="https://w.mgtv.com" target="blank_">湖南卫视</a></li>
-            <li><a href="http://www.zjstv.com" target="blank_">浙江卫视</a></li>
-            <li><a href="http://www.66zhibo.net/2/shandong.html" target="blank_">山东卫视</a></li>
-            <li><a href="http://www.66zhibo.net/2/shenzhen.html" target="blank_">深圳卫视</a></li>
-            <li><a href="http://www.66zhibo.net/2/liaoning.html" target="blan_">辽宁卫视</a></li>
-            </ul>
-        </div>
-        <h2></h2>
-        <div id="index-channel">
-            <ul>
-            <li><a href="http://www.youtube.com" target="blank_">YouTube</a></li>
-            <li><a href="http://tv.naver.com" target="blank_">NAVER TV</a></li>
-            <li><a href="http://tv.kakao.com" target="blank_">KAKAO TV</a></li>
-            <li><a href="http://www.tving.com" target="blank_">TVING</a></li>
-            <li><a href="https://www.twitch.tv" target="blank_">Twitch</a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="http://www.youku.com" target="blank_">优酷视频</a></li>
-            <li><a href="http://www.iqiyi.com" target="blank_">爱奇艺网</a></li>
-            <li><a href="http://www.tudou.com" target="blank_">土豆视频</a></li>
-            <li><a href="http://www.ixigua.com" target="blank_">西瓜视频</a></li>
-            <li><a href="https://v.qq.com" target="blank_">腾讯视频</a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="https://weishi.qq.com" target="blank_">腾讯微视</a></li>
-            <li><a href="http://v.baidu.com" target="blank_">百度视频</a></li>
-            <li><a href="http://haokan.baidu.com" target="blank_">好看视频</a></li>
-            <li><a href="http://tv.sohu.com" target="blank_">搜狐视频</a></li>
-            <li><a href="http://www.bilibili.com" target="blank_">哔哩哔哩</a></li>
-            </ul>
-        </div>
-        <h2></h2>
-        <div id="index-channel">
-            <ul>
-            <li><a href="https://bugs.co.kr" target="blank_">Bugs!</a></li>
-            <li><a href="https://www.melon.com" target="blank_">Melon</a></li>
-            <li><a href="http://www.soribada.com" target="blank_">Soribada</a></li>
-            <li><a href="https://www.genie.co.kr" target="blank_">Genie(지니)</a></li>
-            <li><a href="https://www.music-flo.com" target="blank_">FLO(플로)</a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="https://music.taihe.com" target="blank_">千千音乐</a></li>
-            <li><a href="https://y.qq.com" target="blank_">Q Q 音乐</a></li>
-            <li><a href="https://music.163.com" target="blank_">网易音乐</a></li>
-            <li><a href="https://www.xiami.com" target="blank_">虾米音乐</a></li>
-            <li><a href="http://www.kugou.com" target="blank_">酷狗音乐</a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="http://www.kuwo.cn" target="blank_">酷我音乐</a></li>
-            <li><a href="https://www.migu.cn" target="blank_">咪咕音乐</a></li>
-            <li><a href="https://www.migu.cn" target="blank_">咪咕音乐</a></li>
-            <li><a href="https://www.migu.cn" target="blank_">咪咕音乐</a></li>
-            <li><a href="https://www.migu.cn" target="blank_">咪咕音乐</a></li>
-            </ul>
-        </div>
-        <h2></h2>
-        <div id="index-channel">
-            <ul>
-            <li><a href="http://www.afreecatv.com" target="blank_">아프리카TV</a></li>
-            <li><a href="http://www.popkontv.com" target="blank_">팝콘TV</a></li>
-            <li><a href="http://www.pandalive.co.kr" target="blank_">팬더TV</a></li>
-            <li><a href="https://www.bbongtv.co.kr" target="blank_">뽕TV</a></li>
-            <li><a href="https://www.bongtv.kr" target="blank_">BONG TV</a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="http://www.douyu.com" target="blank_">斗鱼直播</a></li>
-            <li><a href="http://www.huya.com" target="blank_">虎牙直播</a></li>
-            <li><a href="http://www.longzhu.com" target="blank_">龙珠直播</a></li>
-            <li><a href="http://live.qq.com" target="blank_">企鹅直播</a></li>
-            <li><a href="http://www.yy.com" target="blank_">Y Y 直播</a></li>
-            </ul>
-        </div>
-        <h2></h2>
-        <div id="index-channel">
-            <ul>
-            <li><a href="http://kr.chineseembassy.org/chn" target="blank_">中华人民共和国驻大韩民國大使馆</a></li>
-            <li><a href="https://www.hikorea.go.kr/Main.pt" target="blank_">Hi-KOREA</a></li>
-            <li><a href="https://www.gov.kr/portal/main" target="blank_">민원24</a></li>
-            </ul>
-        </div>
-        <div id="index-channel">
-            <ul>
-            <li><a href="http://efine.go.kr/main/main.do" target="blank_">경찰청교통민원 (이파인)</a></li>
-            <li><a href="https://minwon.police.go.kr/" target="blank_">경찰민원포털</a></li>
-            <li><a href="https://www.hometax.go.kr" target="blank_">국세청 (홈텍스)</a></li>
-            </ul>
-        </div>
-        <h2></h2>
-            <div id="index-channel">
                 <ul>
-                <li><a href="https://parcel.epost.go.kr/auth.EpostLogin.parcel" target="blank_">우체국택배</a></li>
-                <li><a href="https://www.cjlogistics.com/ko/main" target="blank_">대한통운</a></li>
-                <li><a href="www.ilogen.com" target="blank_">로젠택배</a></li>
-                <li><a href="http://www.hanjin.co.kr/delivery_html/index.jsp" target="blank_">한진택배</a></li>
-                <li><a href="https://www.lotteglogis.com" target="blank_">롯데택배</a></li>
-                </ul>
-            </div>
-            <div id="index-channel">
-                <ul>
-                <li><a href="https://kdexp.com/main.kd" target="blank_">경동택배</a></li>
-                <li><a href="https://www.homepick.com" target="blank_">홈픽택배</a></li>
-                <li><a href="https://www.cupost.co.kr/postbox/delivery/local.cupost" target="blank_">C U 택배</a></li>
-                <li><a href="http://www.ds3211.co.kr/" target="blank_">대신택배</a></li>
-                <li><a href="https://hdexp.co.kr/index.hd" target="blank_">합동택배</a></li>
-                </ul>
-            </div>
-            </nav>
-            <div class="bottom">
+                <li id="title">동 영 상</li>
+                <li><a href="http://www.youtube.com" target="blank_"><span>YouTube</span></a></li>
+                <li><a href="http://tv.naver.com" target="blank_"><span>네이버</span></a></li>
+                <li><a href="http://tv.kakao.com" target="blank_"><span>카카오</span></a></li>
+                <li><a href="http://www.tving.com" target="blank_"><span>TVING</span></a></li>
+                <li><a href="https://www.twitch.tv" target="blank_"><span>Twitch</span></a></li>
+            </ul>
+        </div>
+        <div id="index-channel">
+            <ul>
+                <li id="title">視　　頻</li>
+                <li><a href="http://www.youku.com" target="blank_">优酷视频</a></li>
+                <li><a href="http://www.iqiyi.com" target="blank_">爱奇艺网</a></li>
+                <li><a href="http://www.tudou.com" target="blank_">土豆视频</a></li>
+                <li><a href="http://www.ixigua.com" target="blank_">西瓜视频</a></li>
+                <li><a href="https://v.qq.com" target="blank_">腾讯视频</a></li>
+                <li><a href="http://v.baidu.com" target="blank_">百度视频</a></li>
+                <li><a href="http://haokan.baidu.com" target="blank_">好看视频</a></li>
+                <li><a href="http://tv.sohu.com" target="blank_">搜狐视频</a></li>
+                <li><a href="http://www.bilibili.com" target="blank_">哔哩哔哩</a></li>
+            </ul>
+        </div>
+        <div id="index-channel">
+            <ul>
+                <li id="title">음　악</li>
+                <li><a href="https://bugs.co.kr" target="blank_">Bugs!</a></li>
+                <li><a href="https://www.melon.com" target="blank_">Melon</a></li>
+                <li><a href="http://www.soribada.com" target="blank_">Soribada</a></li>
+                <li><a href="https://www.genie.co.kr" target="blank_">Genie</a></li>
+                <li><a href="https://www.music-flo.com" target="blank_">FLO</a></li>
+            </ul>
+        </div>
+        <div id="index-channel">
+            <ul>
+                <li id="title">音　樂</li>
+                <li><a href="https://music.taihe.com" target="blank_">千千音乐</a></li>
+                <li><a href="https://y.qq.com" target="blank_">Q Q 音乐</a></li>
+                <li><a href="https://music.163.com" target="blank_">网易音乐</a></li>
+                <li><a href="https://www.xiami.com" target="blank_">虾米音乐</a></li>
+                <li><a href="http://www.kugou.com" target="blank_">酷狗音乐</a></li>
+                <li><a href="http://www.kuwo.cn" target="blank_">酷我音乐</a></li>
+                <li><a href="https://www.migu.cn" target="blank_">咪咕音乐</a></li>
+            </ul>
+        </div>
+        <div id="index-channel">
+            <ul>
+                <li id="title">방　송</li>
+                <li><a href="http://www.afreecatv.com" target="blank_">afreecaTV</a></li>
+                <li><a href="http://www.popkontv.com" target="blank_">PopKonTV</a></li>
+                <li><a href="http://www.pandalive.co.kr" target="blank_">PandaTV</a></li>
+                <li><a href="https://www.bbongtv.co.kr" target="blank_">뽕TV</a></li>
+                <li><a href="https://www.bongtv.kr" target="blank_">bongtv</a></li>
+            </ul>
+        </div>
+        <div id="index-channel">
+            <ul>
+                <li id="title">直　播</li>
+                <li><a href="http://www.douyu.com" target="blank_">斗鱼直播</a></li>
+                <li><a href="http://www.huya.com" target="blank_">虎牙直播</a></li>
+                <li><a href="http://www.longzhu.com" target="blank_">龙珠直播</a></li>
+                <li><a href="http://live.qq.com" target="blank_">企鹅直播</a></li>
+                <li><a href="http://www.yy.com" target="blank_">Y Y 直播</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div id="index-channel">
+            <ul>
+                <li id="title">티　비</li>
+                <li><a href="http://play.sbs.co.kr/onair/pc/index.html?div=pc_onair" target="blank_">SBS</a></li>
+                <li><a href="http://onair.imbc.com" target="blank_">MBC</a></li>
+                <li><a href="http://onair.kbs.co.kr" target="blank_">KBS 1</a></li>
+                <li><a href="http://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=12&ch_type=globalList" target="blank_">KBS 2</a></li>
+                <li><a href="http://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=81&ch_type=globalList" target="blank_">KBS24뉴스</a></li>
+            </ul>
+        </div>
+        <div id="index-channel">
+            <ul>
+                <li id="title">電　視</li>
+                <li><a href="https://tv.cctv.com/live/m" target="blank_">央视直播</a></li>
+                <li><a href="http://www.iybtv.com" target="blank_">延边卫视</a></li>
+                <li><a href="https://www.brtn.cn/btv/btvsy_index" target="blank_">北京卫视</a></li>
+                <li><a href="http://www.66zhibo.net/2/dongfang.html" target="blank_">东方卫视</a></li>
+                <li><a href="https://www.gdtv.cn/tvChannelDetail/43" target="blank_">广东卫视</a></li>
+                <li><a href="https://w.mgtv.com" target="blank_">湖南卫视</a></li>
+                <li><a href="http://www.zjstv.com" target="blank_">浙江卫视</a></li>
+                <li><a href="http://www.66zhibo.net/2/shandong.html" target="blank_">山东卫视</a></li>
+                <li><a href="http://www.66zhibo.net/2/shenzhen.html" target="blank_">深圳卫视</a></li>
+                <li><a href="http://www.66zhibo.net/2/liaoning.html" target="blan_">辽宁卫视</a></li>
+            </ul>
+        </div>
+        <div id="index-channel">
+            <ul>
+                <li id="title">영　화</li>
+                <li><a href="https://www.yb79.net" target="blank_"><span>YB79.TV</span></a></li>
+                <li><a href="https://www.bomeetv.com" target="blank_"><span>보미티비</span></a></li>
+                <li><a href="http://www.luckymv.com" target="blank_"><span>럭키무비</span></a></li>
+                <li><a href="https://www.beiyaotv.com" target="blank_"><span>조개타령</span></a></li>
+                <li><a href="http://www.goratv00.com" target="blank_"><span>고래티비</span></a></li>
+                <li><a href="http://www.meailtv.com" target="blank_"><span>매일티비</span></a></li>
+                <li><a href="http://zoa1.tv" target="blank_"><span>조아티비</span></a></li>
+            </ul>
+        </div>
+        </nav>
+        <div class="bottom">
                 <br>
                 <br>
                 Copyright © <a href="http://www.1dang.kr"><b>1DANG.KR</b></a>. All right reserved.
