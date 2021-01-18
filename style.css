@@ -49,7 +49,7 @@ a {
 }
 
 #index-channel a {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -85,5 +85,11 @@ a {
     }
     #about {
         font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .top {
+        font-size: 18px;
     }
 }
