@@ -19,6 +19,7 @@ a {
     font-size: 16px;
     color: black;
 }
+
 .top > h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 35px;
@@ -76,3 +77,10 @@ a {
     font-size: 12px;
     font-family: Cambria;
     color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+    .index-link {
+        font-size: 15px;
+    }
+}
