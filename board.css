@@ -68,7 +68,8 @@ header {
 }
 
 .board-channel li:hover {
-    background-color:#E7E7E7;
+    background-color:#EEEEEE;
+    border-radius: 5px;
 }
 
 .board-channel li:hover span {
