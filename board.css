@@ -52,7 +52,7 @@ header {
 
 .board-channel {
     margin: auto;
-    background-color:#E7E7E7;
+    background-color:#EEEEEE;
 }
 
 .board-channel ul {
@@ -117,6 +117,11 @@ caption {
 .board-list tbody tr td:nth-child(2) {
     text-align: left;
 }
+
+.board-list tbody tr td:nth-child(2):hover a {
+    color:#FFAE18;
+}
+
 .board-list-wrap .paging {
     margin-top: 15px;
     text-align: center;
@@ -136,18 +141,25 @@ caption {
 }
 
 .board-list-wrap .paging a.num {
-    background-color: #BBBBBB;
+    background-color: #EEEEEE;
     font-weight: bold;
 }
 
 .board-list-wrap .paging a.num.on {
-    background-color: white;
+    background-color: #FFAE18;
 }
 
 .bottom {
     font-size: 12px;
     font-family: Cambria;
     color: gray;
+}
+
+@media only screen and (max-width: 2560px) {
+    header,
+    .board-channel ul {
+        max-width: 710px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
