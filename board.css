@@ -19,12 +19,8 @@ header {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 15px 10px;
-    max-width: 730px;
-}
-
-.logo {
-    padding-top: 0px;
+    padding: 10px 5px;
+    max-width: 768px;
 }
 
 .title {
@@ -32,16 +28,13 @@ header {
     border-radius: 5px;
 }
 
-.menu ul {
-    line-height: center;
-}
-
+.logo ul li, 
 .menu ul li {
     width: 55px;
     height: 20px;
     position: relative;
     list-style: none;
-    border: 1px solid white;
+    border: 1px solid #DDDDDD;
     background-color: #FFAE18;
     border-radius: 5px;
     padding: 3px 6px;
@@ -51,6 +44,7 @@ header {
     top: 5px;
 }
 
+.logo li a,
 .menu li a {
     font-size: 12px;
     color: white;
@@ -64,7 +58,7 @@ header {
 
 .board-channel ul {
     margin: auto;
-    max-width: 730px;
+    max-width: 768px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -154,4 +148,10 @@ caption {
     font-size: 12px;
     font-family: Cambria;
     color: gray;
+}
+
+@media only screen and (max-width: 375px) {
+    .title {
+        width: 200px;
+    }
 }
