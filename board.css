@@ -64,10 +64,6 @@ header {
     list-style: none;
 }
 
-.board-channel a {
-    font-size: 13px;
-}
-
 .board-channel li {
     padding: 10px 10px;
 }
@@ -78,6 +74,11 @@ header {
 
 .board-channel li:hover span {
     color:#FFAE18;
+}
+
+.board-channel a {
+    font-weight: bold;
+    color: #666666;
 }
 
 table {
@@ -153,5 +154,10 @@ caption {
 @media only screen and (max-width: 375px) {
     .title {
         width: 200px;
+    }
+    .board-channel a {
+        font-size: 14px;
+        font-weight: normal;
+        color: black;
     }
 }
