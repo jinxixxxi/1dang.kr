@@ -90,10 +90,10 @@ a {
     font-style: normal;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
     .top{
         font-family: 'LAB디지털';
-        font-size: 18px;
+        font-size: 20px;
     }
     #index-channel ul li:hover span,
     #index-ad:hover {
@@ -109,6 +109,6 @@ a {
 
 @media only screen and (max-width: 375px) {
     .top {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
