@@ -17,7 +17,7 @@ a {
 
 .top {
     font-size: 16px;
-    color: blackk;
+    color: black;
 }
 
 .top > h1 {
@@ -64,12 +64,12 @@ a {
 
 #index-ad {
     border: 2px solid #F9AB00;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 #index-ad:hover {
-    border: 2px solid #F9AB00;
-    border-radius: 7px;
+    border: 2px solid #999999;
+    border-radius: 5px;
 }
 
 #about {
@@ -104,11 +104,5 @@ a {
     }
     #about {
         font-size: 10px;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .top {
-        font-size: 20px;
     }
 }
