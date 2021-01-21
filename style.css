@@ -95,6 +95,10 @@ a {
         font-family: 'LAB디지털';
         font-size: 20px;
     }
+    #index-channel ul li:hover span,
+    #index-ad:hover {
+        color: #FFAE18;
+    }
     .index-link {
         font-size: 15px;
     }
