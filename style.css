@@ -90,7 +90,7 @@ a {
     font-style: normal;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .top{
         font-family: 'LAB디지털';
         font-size: 18px;
