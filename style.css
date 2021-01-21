@@ -68,7 +68,7 @@ a {
 }
 
 #index-ad:hover {
-    border: 2px solid #FF9000;
+    border: 2px solid #FF9100;
     border-radius: 5px;
 }
 
@@ -83,8 +83,22 @@ a {
     font-family: Cambria;
     color: gray;
 }
+@font-face {
+    font-family: 'LAB디지털';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @media only screen and (max-width: 768px) {
+    .top{
+        font-family: 'LAB디지털';
+        font-size: 18px;
+    }
+    #index-channel ul li:hover span,
+    #index-ad:hover {
+        color: #FFAE18;
+    }
     .index-link {
         font-size: 15px;
     }
