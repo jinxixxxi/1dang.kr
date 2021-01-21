@@ -63,12 +63,12 @@ a {
 }
 
 #index-ad {
-    border: 2px solid #FFAE18;
+    border: 2px solid #FF9523;
     border-radius: 5px;
 }
 
 #index-ad:hover {
-    border: 2px solid #FF9523;
+    border: 2px solid #FFAE18;
     border-radius: 5px;
 }
 
