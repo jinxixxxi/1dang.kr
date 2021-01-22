@@ -18,7 +18,7 @@
 
             body {
                 background: url(images/background.jpg);
-                max-width: 460px;
+                max-width: 375px;
                 text-align: center;
                 font-family: Gulim;
                 font-size: 13px;
@@ -32,7 +32,7 @@
 
             .board-list {
                 width: 100%;
-                border-top: 3px solid #FFAE18;
+                border-top: 3px solid #F9AB00;
                 color:black
             }
 
@@ -49,6 +49,12 @@
             p {
                 color: white;
             }
+
+            @media only screen and (max-width: 425px) {
+                .board-list {
+                    font-size: 11px;
+                }
+            }
         </style>
     </head>
     <body>
@@ -58,7 +64,7 @@
                         <th>예금주</th>
                         <th>은행명</th>
                         <th>계좌번호</th>
-                        <th>비고</th>
+                        <th>비　고</th>
                     </tr>
                 </thead>
                 <tbody>
