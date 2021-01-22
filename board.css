@@ -36,7 +36,7 @@ header {
     list-style: none;
     border: 1px solid white;
     background-color: #F9AB00;
-    border-radius: 7px;
+    border-radius: 5px;
     padding: 3px 6px;
     line-height:20px
 }
@@ -47,6 +47,7 @@ header {
 .logo li a,
 .menu li a {
     font-size: 12px;
+    font-weight: bold;
     color: white;
 }
 
@@ -163,7 +164,11 @@ caption {
     }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
+    .logo li a,
+    .menu li a {
+        font-weight: normal;
+    }
     .board-channel li {
         padding: 10px 10px;
     }
