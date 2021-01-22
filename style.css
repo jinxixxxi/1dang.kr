@@ -16,6 +16,7 @@ a {
 }
 
 .top {
+    font-family: 'S-CoreDream-4Regular';
     font-size: 16px;
     color: black;
 }
@@ -84,16 +85,16 @@ a {
     color: gray;
 }
 @font-face {
-    font-family: 'LAB디지털';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @media only screen and (max-width: 1200px) {
     .top{
-        font-family: 'LAB디지털';
-        font-size: 20px;
+        font-family: 'S-CoreDream-4Regular';
+        font-size: 17px;
     }
     #index-channel ul li:hover span,
     #index-ad:hover {
