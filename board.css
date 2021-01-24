@@ -165,10 +165,8 @@ caption {
 }
 
 @media only screen and (max-width: 1200px) {
-    .board-channel a {
+    body {
         font-size: 16px;
-        font-weight: normal;
-        color: black;
     }
 }
 
