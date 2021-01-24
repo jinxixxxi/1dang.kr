@@ -192,8 +192,8 @@ caption {
     }
     .board-list thead tr th:nth-child(3),
     .board-list tbody tr td:nth-child(3),
-    .board-list thead tr th:nth-child(5),
-    .board-list tbody tr td:nth-child(5) {
+    .board-list thead tr th:nth-child(4),
+    .board-list tbody tr td:nth-child(4) {
         display: none;
     }
 }
