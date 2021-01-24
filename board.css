@@ -4,7 +4,7 @@
 }
 
 body {
-    border-top: 3px solid #4E6EF2;
+    border-top: 3px solid #F9AB00;
     text-align: center;
     font-family: Gulim;
     font-size: 13px;
@@ -35,7 +35,7 @@ header {
     position: relative;
     list-style: none;
     border: 1px solid white;
-    background-color: #4E6EF2;
+    background-color: #F9AB00;
     border-radius: 5px;
     padding: 3px 6px;
     line-height:20px
@@ -74,7 +74,7 @@ header {
 }
 
 .board-channel li:hover span {
-    color: #4E6EF2;
+    color: #F9AB00;
 }
 
 .board-channel a {
@@ -148,7 +148,7 @@ caption {
 }
 
 .board-list-wrap .paging a.num.on {
-    background-color: #4E6EF2;
+    background-color: #F9AB00;
 }
 
 .bottom {
