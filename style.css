@@ -4,7 +4,7 @@
 }
 
 body {
-    border-top: 3px solid #F9AB00;
+    border-top: 3px solid #5E6EF2;
     text-align: center;
     font-family: Gulim;
     font-size: 13px;
@@ -18,18 +18,18 @@ a {
 .top {
     font-family: 'S-CoreDream-4Regular';
     font-size: 16px;
-    color: black;
+    color: black
 }
 
 .top > h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 35px;
-    color: #777777;
+    color: #666666;
 }
 
 .top > h1> em {
     font-style: normal;
-    color: #F9AB00;
+    color: #5E6EF2;
 }
 
 #index-channel {
@@ -55,7 +55,7 @@ a {
 }
 
 #index-channel ul li:hover span {
-    color: #F9AB00;
+    color: #5E6EF2;
 }
 
 .index-link {
@@ -64,7 +64,7 @@ a {
 }
 
 #index-ad {
-    border: 2px solid #F9AB00;
+    border: 2px solid #5E6EF2;
     border-radius: 5px;
 }
 
@@ -98,7 +98,7 @@ a {
     }
     #index-channel ul li:hover span,
     #index-ad:hover {
-        color: #F9AB00;
+        color: #5E6EF2;
     }
     .index-link {
         font-size: 15px;
