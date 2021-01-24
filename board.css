@@ -191,7 +191,9 @@ caption {
         color: black;
     }
     .board-list thead tr th:nth-child(3),
-    .board-list tbody tr td:nth-child(3) {
+    .board-list tbody tr td:nth-child(3),
+    .board-list thead tr th:nth-child(5),
+    .board-list tbody tr td:nth-child(5) {
         display: none;
     }
 }
