@@ -165,13 +165,6 @@ caption {
 }
 
 @media only screen and (max-width: 1200px) {
-    .logo li a,
-    .menu li a {
-        font-weight: normal;
-    }
-    .board-channel li {
-        padding: 10px 10px;
-    }
     .board-channel a {
         font-size: 14px;
         font-weight: normal;
@@ -192,8 +185,8 @@ caption {
     }
     .board-list thead tr th:nth-child(3),
     .board-list tbody tr td:nth-child(3),
-    .board-list thead tr th:nth-child(4),
-    .board-list tbody tr td:nth-child(4) {
+    .board-list thead tr th:nth-child(5),
+    .board-list tbody tr td:nth-child(5) {
         display: none;
     }
 }
