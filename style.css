@@ -98,7 +98,7 @@ a {
     }
     #index-channel ul li:hover span,
     #index-ad:hover {
-        color: #3399FF;
+        border: 2px solid #3399FF;
     }
     .index-link {
         font-size: 15px;
