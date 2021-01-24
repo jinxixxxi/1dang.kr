@@ -176,7 +176,16 @@ caption {
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+    .logo li a,
+    .menu li a {
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+    }
     .title {
         width: 210px;
     }
