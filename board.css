@@ -164,19 +164,7 @@ caption {
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    body {
-        font-size: 16px;
-    }
-    .logo li a,
-    .menu li a {
-        font-size: 14px;
-        font-weight: bold;
-        color: white;
-    }
-}
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 425px) {
     body {
         font-size: 13px;
     }
