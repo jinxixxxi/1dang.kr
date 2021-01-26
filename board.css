@@ -78,7 +78,6 @@ header {
 }
 
 .board-channel a {
-    font-weight: bold;
     color: #666666;
 }
 
@@ -179,11 +178,6 @@ caption {
     }
     .board-channel li {
         padding: 10px 10px;
-    }
-    .board-channel a {
-        font-size: 14px;
-        color: black;
-        font-weight: normal;
     }
     .board-list thead tr th:nth-child(3),
     .board-list tbody tr td:nth-child(3),
