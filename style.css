@@ -16,15 +16,14 @@ a {
 }
 
 .top {
-    font-family: 'S-CoreDream-4Regular';
-    font-size: 16px;
-    color: black
+    font-size: 18px;
+    color: black;
 }
 
 .top > h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 35px;
-    color: #666666;
+    color: #777777;
 }
 
 .top > h1> em {
@@ -84,24 +83,17 @@ a {
     font-family: Cambria;
     color: gray;
 }
-@font-face {
-    font-family: 'S-CoreDream-4Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @media only screen and (max-width: 1200px) {
     .top{
-        font-family: 'S-CoreDream-4Regular';
-        font-size: 17px;
+        font-size: 16px;
     }
     #index-ad:hover {
         border: 2px solid #F9AB00;
     }
     .index-link {
         font-size: 15px;
-    }
+    }   
     #about {
         font-size: 10px;
     }
