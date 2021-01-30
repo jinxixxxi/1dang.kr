@@ -30,13 +30,13 @@ header {
 
 .logo ul li, 
 .menu ul li {
-    width: 55px;
+    width: 60px;
     height: 20px;
     position: relative;
     list-style: none;
     border: 1px solid #DDDDDD;
     background-color: #F9AB00;
-    border-radius: 7px;
+    border-radius: 35px;
     padding: 3px 6px;
     line-height:20px
 }
