@@ -4,7 +4,7 @@
 }
 
 body {
-    border-top: 3px solid #F9AB00;
+    border-top: 3px solid #FEB632;
     text-align: center;
     font-family: Gulim;
     font-size: 13px;
@@ -35,7 +35,7 @@ header {
     position: relative;
     list-style: none;
     border: 1px solid #DDDDDD;
-    background-color: #F9AB00;
+    background-color: #FEB632;
     border-radius: 7px;
     padding: 2px 2px;
     line-height: 20px
@@ -74,7 +74,7 @@ header {
 }
 
 .board-channel li:hover span {
-    color: #F9AB00;
+    color: #FEB632;
 }
 
 .board-channel a {
@@ -120,7 +120,7 @@ caption {
 }
 
 .board-list tbody tr td:nth-child(2):hover a {
-    color:#F9AB00;
+    color:#FEB632;
 }
 
 .board-list-wrap .paging {
@@ -147,7 +147,7 @@ caption {
 }
 
 .board-list-wrap .paging a.num.on {
-    background-color: #F9AB00;
+    background-color: #FEB632;
 }
 
 .bottom {
