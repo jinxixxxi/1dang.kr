@@ -31,17 +31,17 @@ header {
 .logo ul li, 
 .menu ul li {
     width: 60px;
-    height: 20px;
+    height: 21px;
     position: relative;
     list-style: none;
     border: 1px solid #DDDDDD;
     background-color: #FFAA00;
     border-radius: 7px;
     padding: 2px 2px;
-    line-height: 20px
+    line-height: 21px
 }
 #b {
-    top: 10px;
+    top: 7px;
 }
 
 .logo li a,
@@ -78,7 +78,7 @@ header {
 }
 
 .board-channel a {
-    color: #696969;
+    color: #666666;
 }
 
 table {
