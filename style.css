@@ -86,7 +86,7 @@ a {
 
 @media only screen and (max-width: 1200px) {
     .top{
-        font-size: 20px;
+        font-size: 15px;
     }
     #index-ad:hover {
         border: 2px solid #FFAA00;
