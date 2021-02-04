@@ -4,7 +4,7 @@
 }
 
 body {
-    border-top: 3px solid #4285F4;
+    border-top: 3px solid #FFAA00;
     text-align: center;
     font-family: Gulim;
     font-size: 13px;
@@ -28,7 +28,7 @@ a {
 
 .top > h1> em {
     font-style: normal;
-    color: #4285F4;
+    color: #FFAA00;
 }
 
 #index-channel {
@@ -54,7 +54,7 @@ a {
 }
 
 #index-channel ul li:hover span {
-    color: #4285F4;
+    color: #FFAA00;
 }
 
 .index-link {
@@ -63,7 +63,7 @@ a {
 }
 
 #index-ad {
-    border: 2px solid #4285F4;
+    border: 2px solid #FFAA00;
     border-radius: 7px;
 }
 
@@ -89,7 +89,7 @@ a {
         font-size: 20px;
     }
     #index-ad:hover {
-        border: 2px solid #4285F4;
+        border: 2px solid #FFAA00;
     }
     .index-link {
         font-size: 15px;
