@@ -5,8 +5,9 @@
 
 body {
     border-top: 3px solid #FFAA00;
-    background-image: linear-gradient(rgba(255, 0, 0, 0.178), rgba(255, 255, 255, 0)),
-                      url(https://search-operate.cdn.bcebos.com/4afbac0c926c4743a3dcd72e1f17666e.png);
+    background-image: linear-gradient(rgba(255, 98, 98, 0.068), rgba(255, 255, 255, 0)),
+                      url(/images/newyear.png);
+    background-size:auto;
     background-repeat: no-repeat;
     background-position: top right;
     background-attachment: fixed;
