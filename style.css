@@ -4,7 +4,7 @@
 }
 
 body {
-    border-top: 3px solid #FFAA00;
+    border-top: 3px solid #FFB518;
     background-image: linear-gradient(rgba(255, 247, 232, 0.555), rgba(255, 255, 255, 0));
     background-size:auto;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ a {
 
 .top > h1> em {
     font-style: normal;
-    color: #FFAA00;
+    color: #FFB518;
 }
 
 #index-channel ul {
@@ -50,7 +50,7 @@ a {
 }
 
 #index-channel ul li:hover span {
-    color: #FFAA00;
+    color: #FFB518;
 }
 
 .index-link {
@@ -59,7 +59,7 @@ a {
 }
 
 #index-ad {
-    border: 2px solid #FFAA00;
+    border: 2px solid #FFB518;
     border-radius: 7px;
 }
 
@@ -81,14 +81,11 @@ a {
 }
 
 @media only screen and (max-width: 1200px) {
-    body {
-        background-image: none;
-    }
     .top{
         font-size: 20px;
     }
     #index-ad:hover {
-        border: 2px solid #FFAA00;
+        border: 2px solid #FFB518;
     }
     .index-link {
         font-size: 15px;
