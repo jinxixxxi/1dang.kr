@@ -5,6 +5,11 @@
 
 body {
     border-top: 3px solid #FFB518;
+    background-image: linear-gradient(rgba(255, 247, 232, 0.300), rgba(255, 255, 255, 0));
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
     text-align: center;
     font-family: Gulim;
     font-size: 13px;
