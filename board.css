@@ -4,7 +4,7 @@
 }
 
 body {
-    border-top: 3px solid #FFB518;
+    border-top: 3px solid #FCB416;
     text-align: center;
     font-family: Gulim;
     font-size: 13px;
@@ -35,7 +35,7 @@ header {
     position: relative;
     list-style: none;
     border: 1px solid #DDDDDD;
-    background-color: #FFB518;
+    background-color: #FCB416;
     border-radius: 7px;
     padding: 2px 2px;
     line-height: 21px
@@ -147,7 +147,7 @@ caption {
 }
 
 .board-list-wrap .paging a.num.on {
-    background-color: #FFB518;
+    background-color: #FCB416;
 }
 
 .bottom {
