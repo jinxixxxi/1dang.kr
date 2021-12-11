@@ -4,7 +4,7 @@
 }
 
 body {
-    border-top: 3px solid #FCB416;
+    border-top: 3px solid #FFB666;
     text-align: center;
     font-family: Gulim;
     font-size: 13px;
@@ -19,12 +19,12 @@ header {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 10px 5px;
+    padding: 15px 5px;
     max-width: 768px;
 }
 
 .title {
-    border: 1px solid #DDDDDD;
+    border: 1px solid white;
     border-radius: 7px;
 }
 
@@ -35,7 +35,7 @@ header {
     position: relative;
     list-style: none;
     border: 1px solid #DDDDDD;
-    background-color: #FCB416;
+    background-color: #FFB666;
     border-radius: 7px;
     padding: 2px 2px;
     line-height: 21px
@@ -51,9 +51,16 @@ header {
     color: white;
 }
 
+.navbar {
+    background-color:white;
+}
+
+.board-ad {
+    border: 1px solid #DDDDDD;
+    border-radius: 7px;
+}
 .board-channel {
-    margin: auto;
-    background-color:#E8E8E8;
+    padding: 3px 0px;
 }
 
 .board-channel ul {
@@ -65,16 +72,20 @@ header {
 }
 
 .board-channel li {
-    padding: 10px 0px;
+    padding: 3px 5px;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    font-size: 13px;
 }
 
 .board-channel li:hover {
-    background-color:#E8E8E8;
+    background-color:white;
     border-radius: 5px;
 }
 
 .board-channel li:hover span {
-    color: #FFB518;
+    color: #FFB666;
 }
 
 .board-channel a {
@@ -96,7 +107,7 @@ caption {
 
 .board-list-wrap {
     margin: auto;
-    padding: 15px 5px;
+    padding: 10px 10px;
     max-width: 768px;
 }
 .board-list {
@@ -120,7 +131,7 @@ caption {
 }
 
 .board-list tbody tr td:nth-child(2):hover a {
-    color:#FCB416;
+    color:#FFB666;
 }
 
 .board-list-wrap .paging {
@@ -147,7 +158,7 @@ caption {
 }
 
 .board-list-wrap .paging a.num.on {
-    background-color: #FCB416;
+    background-color: #FFB666;
 }
 
 .bottom {
@@ -159,7 +170,7 @@ caption {
 @media only screen and (max-width: 2560px) {
     header,
     .board-channel ul {
-        max-width: 730px;
+        max-width: 768px;
     }
 }
 
@@ -169,7 +180,7 @@ caption {
     }
     .logo li a,
     .menu li a {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: bold;
         color: white;
     }
