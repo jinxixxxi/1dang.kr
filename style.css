@@ -16,8 +16,9 @@ a {
 }
 
 .top {
+    padding: 45px 0px;
     font-size: 18px;
-    color: black;
+    color: gray;
 }
 
 .top > h1 {
@@ -33,7 +34,7 @@ a {
 
 #index-channel ul {
     max-width: 375px;
-    padding: 10px 5px;
+    padding: 10px 0px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -66,19 +67,31 @@ a {
 #about {
     padding: 5px;
     font-family: Gulim;
-    color: gray;
     font-size: 14px;
+    color: black;
+}
+
+#notice {
+    padding: 5px;
+    font-family: Gulim;
+    font-size: 11px;
+    color: gray;
 }
 
 .bottom {
     font-family: Cambria;
+    font-size: 12px;
     color: gray;
 }
 
 @media only screen and (max-width: 1200px) {
     .top{
-        font-size: 20px;
+        font-size: 18px;
     }
+    .top > h1 {
+        font-family: 'Orbitron', Sans-Serif;
+        font-size: 40px;
+    }    
     #index-ad:hover {
         border: 2px solid #FFAD58;
     }
@@ -86,6 +99,9 @@ a {
         font-size: 15px;
     }   
     #about {
-        font-size: 13px;
+        font-size: 15px;
+    }
+    #notice {
+        font-size: 12px;
     }
 }
