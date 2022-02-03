@@ -4,10 +4,15 @@
 }
 
 body {
+    background-image: linear-gradient(rgba(255, 243, 202, 0.068), rgba(255, 255, 255, 0));
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
     border-top: 3px solid #FFB518;
     text-align: center;
+    line-height: normal;
     font-family: Gulim;
-    font-size: 13px;
 }
 
 a {
@@ -61,7 +66,7 @@ a {
 }
 
 #index-ad:hover {
-    border: 2px solid #999999;
+    border: 2px solid #777777;
     border-radius: 10px;
 }
 
@@ -91,7 +96,7 @@ a {
     font-family: 'Orbitron', Sans-Serif;
 }
 
-@media screen and (max-width: 712px) {
+@media screen and (max-width: 639px) {
     .top{
         font-size: 18px;
     }
